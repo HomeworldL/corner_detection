@@ -1,0 +1,82 @@
+[INFO] [rclcpp]: Parking node has been initialised.
+[INFO] [rclcpp]: Mapping node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing msg from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Filter: callback for timer 1.
+[INFO] [rclcpp]: Node Filter: callback for timer 2.
+[INFO] [rclcpp]: Node Parking: callback for timer 1.
+[INFO] [rclcpp]: Node Parking: callback for timer 2.

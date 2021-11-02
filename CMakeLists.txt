@@ -21,19 +21,20 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(nav_msgs REQUIRED)
+# find_package(nav_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
+# find_package(geometry_msgs REQUIRED)
 # find_package(message_filters REQUIRED)
 find_package(sensor_msgs REQUIRED)
 # find_package(std_srvs REQUIRED)
 # find_package(tf2_ros REQUIRED)
 # find_package(tf2 REQUIRED)
 
-find_package(pluginlib REQUIRED)
-# find_package(filters REQUIRED)
-# find_package(laser_filters REQUIRED)
+# find_package(pluginlib REQUIRED)
 
+find_package(OpenCV REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(image_transport REQUIRED)
 
 include_directories(
   include
@@ -77,17 +78,20 @@ target_include_directories(${executable_name} PUBLIC
 
 set(dependencies
   rclcpp
-  nav_msgs
+  # nav_msgs
   std_msgs
-  geometry_msgs
+  # geometry_msgs
   sensor_msgs
   # std_srvs
   # tf2_ros
   # tf2
-  pluginlib
+  # pluginlib
   # filters
   # laser_filters
   # laser_geometry
+  OpenCV
+  cv_bridge
+  image_transport
 )
 
 ament_target_dependencies(${executable_name}

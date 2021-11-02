@@ -10,9 +10,9 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
-  <depend>nav_msgs</depend>
+  <!-- <depend>nav_msgs</depend> -->
   <depend>std_msgs</depend>
-  <depend>geometry_msgs</depend>
+  <!-- <depend>geometry_msgs</depend> -->
   <!-- <depend>message_filters</depend> -->
   <depend>sensor_msgs</depend>
   <!-- <depend>std_srvs</depend> -->
@@ -20,11 +20,13 @@
   <depend>tf2</depend>
   <depend>launch_ros</depend>
   <depend>launch_testing</depend> -->
-  <depend>pluginlib</depend>
+  <!-- <depend>pluginlib</depend> -->
   <!-- <depend>filters</depend>
   <depend>laser_filters</depend> -->
   <!-- <depend>laser_geometry</depend> -->
-
+  <depend>OpenCV</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
 
   <!-- <build_depend>filters</build_depend>
   <run_depend>filters</run_depend> -->

@@ -6,7 +6,7 @@
 # 2. Building
 ## Build this project
 ```
-cd your_workspace
+cd eloquent_ws
 colcon build --packages-select corner_detection --symlink-install
 ```
 # 3. Run

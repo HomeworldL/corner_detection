@@ -16,7 +16,7 @@
 #include "corner_detection/process_node.h"
 #include "corner_detection/upsample_node.h"
 #include "corner_detection/harris_node.h"
-#include "corner_detection/surf_node.h"
+#include "corner_detection/shi_tomasi_node.h"
 
 int main(int argc, char * argv[])
 {
@@ -29,13 +29,13 @@ int main(int argc, char * argv[])
   auto upsample_node = std::make_shared<UpsampleNode>();
   
   auto harris_node = std::make_shared<HarrisNode>();
-  auto surf_node = std::make_shared<SurfNode>();
+  auto shi_tomasi_node = std::make_shared<ShiTomasiNode>();
 
   executor.add_node(timer_publisher);
   executor.add_node(process_node);
   executor.add_node(upsample_node);
   executor.add_node(harris_node);
-  executor.add_node(surf_node);
+  executor.add_node(shi_tomasi_node);
 
   executor.spin();
   rclcpp::shutdown();

@@ -78,17 +78,8 @@ target_include_directories(${executable_name} PUBLIC
 
 set(dependencies
   rclcpp
-  # nav_msgs
   std_msgs
-  # geometry_msgs
   sensor_msgs
-  # std_srvs
-  # tf2_ros
-  # tf2
-  # pluginlib
-  # filters
-  # laser_filters
-  # laser_geometry
   OpenCV
   cv_bridge
   image_transport
@@ -121,7 +112,6 @@ endif()
 # Install launch files.
 install(DIRECTORY
   launch
-  param
   DESTINATION share/${PROJECT_NAME}/
 )
 

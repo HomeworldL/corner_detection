@@ -1,9 +1,11 @@
+/***************
+ * 
+ * Ref: https://docs.opencv.org/3.4.15/d4/d1f/tutorial_pyramids.html
+ * 
+ *
+ ***************/
 #include "rclcpp/rclcpp.hpp"
 #include <sensor_msgs/msg/image.hpp>
-
-#include "opencv2/imgproc.hpp"
-#include "opencv2/imgcodecs.hpp"
-#include "opencv2/highgui.hpp"
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
@@ -50,22 +52,20 @@ public:
         }
         catch(const std::exception& e)
         {
-            ROS_ERROR("cv_bridge exception 1: %s", e.what());
+            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "cv_bridge exception upsample node: %s", e.what());
             return;
         }
         
         // upsample cv_ptr->image
         Mat src = cv_ptr->image;
-        pyrUp(src, src, Size(src.cols * 2, src.rows * 2);
+        pyrUp(src, src, Size(src.cols * 2, src.rows * 2));
         cv_ptr->image = src;
 
         // publish the upsampled images to topic /image_upsampled
-        pub_->publish(cv_ptr->toImageMsg());
+        pub_->publish(*cv_ptr->toImageMsg());
     }
 
 private:
-    // filters::FilterChain<sensor_msgs::msg::Image> filter_chain_;
-    std::shared_ptr<filters::FilterBase<sensor_msgs::msg::Image>> filter;
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr pub_;
 };

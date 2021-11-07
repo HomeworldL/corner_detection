@@ -4,6 +4,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/image.hpp"
+
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -18,8 +19,6 @@
 
 using namespace std;
 using namespace cv;
-
-// using namespace std::chrono_literals;
 
 class TimerPublisher : public rclcpp::Node
 {
@@ -43,7 +42,6 @@ public:
     // load images with timestamps
     cout << " Loading images.... It may take some time." << endl;
     LoadImages(image_file, vstrImages);
-    // LoadImages(image_file2, vstrImages2);
     
     count_1 = 0;
     count_2 = 0;
@@ -55,21 +53,25 @@ private:
     if(count_1 <= 1200)
     {
       Mat image;
-      image = imread(image_path + vstrImages[count_1], 1);
+      image = imread(image_path + vstrImages[count_1], CV_LOAD_IMAGE_GRAYSCALE);
       count_1++;
       
       cv_bridge::CvImagePtr cv_ptr(new cv_bridge::CvImage);
 
-      ros::Time time = ros::Time::now();
-      cv_ptr->encoding = "bgr8";
+      rclcpp::Time time = this->now();
+      cv_ptr->encoding = "mono8";
       cv_ptr->header.stamp = time;
       cv_ptr->header.frame_id = "image1";
 
       cv_ptr->image = image;
       image.release();
 
-      publisher_1->publish(cv_ptr->toImageMsg());
+      publisher_1->publish(*cv_ptr->toImageMsg());
       RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 1.");
+    }
+    else
+    {
+      count_1 = 0;
     }
   }
 
@@ -78,21 +80,25 @@ private:
     if(count_2 <= 1200)
     {
       Mat image;
-      image = imread(image_path + vstrImages[count_2], 1);
+      image = imread(image_path + vstrImages[count_2], CV_LOAD_IMAGE_GRAYSCALE);
       count_2++;
       
       cv_bridge::CvImagePtr cv_ptr(new cv_bridge::CvImage);
 
-      ros::Time time = ros::Time::now();
-      cv_ptr->encoding = "bgr8";
+      rclcpp::Time time = this->now();
+      cv_ptr->encoding = "mono8";
       cv_ptr->header.stamp = time;
       cv_ptr->header.frame_id = "image2";
 
       cv_ptr->image = image;
       image.release();
 
-      publisher_2->publish(cv_ptr->toImageMsg());
+      publisher_2->publish(*cv_ptr->toImageMsg());
       RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 2.");
+    }
+    else
+    {
+      count_2 = 0;
     }
   }
 
@@ -103,12 +109,15 @@ private:
       while(!file_handler.eof())
       {
           string s;
+
           getline(file_handler,s);
           if(!s.empty())
           {
               stringstream ss;
               ss << s;
+              double t;
               ss >> t;
+              string sRGB;
               ss >> sRGB;
               vstrImage.push_back(sRGB);
           }

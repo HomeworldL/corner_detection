@@ -21,7 +21,7 @@
 
 using namespace cv;
 
-string result_path = "/home/eric/eloquent_ws/src/corner_detection/results/";
+string result_path = "/home/eric/crystal_ws/src/corner_detection/results/";
 
 class HarrisNode: public rclcpp::Node
 {
@@ -31,8 +31,8 @@ public:
     {
         // Initialise ROS publishers and subscribers
         image_sub = this->create_subscription<sensor_msgs::msg::Image>("/image_upsampled", 
-                                                                        10, 
-                                                                        std::bind(&HarrisNode::image_callback, this, std::placeholders::_1));
+                                                                        std::bind(&HarrisNode::image_callback, this, std::placeholders::_1),
+                                                                        10);
 
         // Initialise outfile    
         delay_outfile_1.open(result_path + "delay_chain1.txt", ios::out);

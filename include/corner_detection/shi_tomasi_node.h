@@ -27,8 +27,8 @@ public:
     {
         // Initialise ROS publishers and subscribers
         image_sub = this->create_subscription<sensor_msgs::msg::Image>("/image_upsampled", 
-                                                                        10, 
-                                                                        std::bind(&ShiTomasiNode::image_callback, this, std::placeholders::_1));
+                                                                        std::bind(&ShiTomasiNode::image_callback, this, std::placeholders::_1),
+                                                                        10);
 
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Shi-Tomasi node has been initialised.");
     }

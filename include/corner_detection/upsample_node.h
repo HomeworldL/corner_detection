@@ -23,8 +23,8 @@ public:
     : Node("upsample_node")
     {
         sub_ = this->create_subscription<sensor_msgs::msg::Image>("/image", 
-                                                                        10, 
-                                                                        std::bind(&UpsampleNode::callback, this, std::placeholders::_1));
+                                                                        std::bind(&UpsampleNode::callback, this, std::placeholders::_1),
+                                                                        10);
 
         pub_ = this->create_publisher<sensor_msgs::msg::Image>("/image_upsampled", 10);
     }

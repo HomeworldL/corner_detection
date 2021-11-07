@@ -39,46 +39,37 @@ public:
     // callback_group_subscriber2_ = this->create_callback_group(
     // rclcpp::callback_group::CallbackGroupType::MutuallyExclusive);
 
-    auto sub2_opt = rclcpp::SubscriptionOptions();
-    sub2_opt.callback_group = callback_group_subscriber2_;
-
-    auto sub1_opt = rclcpp::SubscriptionOptions();
-    sub1_opt.callback_group = callback_group_subscriber1_;
-    
-    // auto sub2_opt = rclcpp::SubscriptionOptions();
-    // sub2_opt.callback_group = callback_group_subscriber2_;
-
     subscription2_ = this->create_subscription<sensor_msgs::msg::Image>(
       "image2",
-      rclcpp::QoS(10),
       std::bind(
         &ProcessNode::subscriber2_cb,
         this,
         std::placeholders::_1),
-      sub2_opt);
+      10,
+      callback_group_subscriber2_);
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Subscriptor 2 generates successfully.");
 
     
     subscription1_ = this->create_subscription<sensor_msgs::msg::Image>(
       "image1",
-      rclcpp::QoS(10),
       std::bind(
         &ProcessNode::subscriber1_cb,
         this,
         std::placeholders::_1),
-      sub1_opt);
+      10,
+      callback_group_subscriber1_);
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Subscriptor 1 generates successfully.");  
 
     // subscription2_ = this->create_subscription<sensor_msgs::msg::Image>(
     //   "image2",
-    //   rclcpp::QoS(10),
     //   std::bind(
     //     &ProcessNode::subscriber2_cb,
     //     this,
     //     std::placeholders::_1),
-    //   sub2_opt);
+    //   10,
+    //   callback_group_subscriber2_);
 
     // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Subscriptor 2 generates successfully.");
 

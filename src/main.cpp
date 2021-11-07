@@ -13,10 +13,10 @@
 #include "rclcpp/rclcpp.hpp"
 
 #include "corner_detection/timer_publisher.h"
-#include "corner_detection/sample_node.h"
 #include "corner_detection/process_node.h"
+#include "corner_detection/upsample_node.h"
 #include "corner_detection/harris_node.h"
-#include "corner_detection/fast_node.h"
+#include "corner_detection/surf_node.h"
 
 int main(int argc, char * argv[])
 {
@@ -25,16 +25,17 @@ int main(int argc, char * argv[])
   // You MUST use the MultiThreadedExecutor to use, well, multiple threads (for ProcessNode)
   rclcpp::executors::MultiThreadedExecutor executor;
   auto timer_publisher = std::make_shared<TimerPublisher>();
-  auto sample_node = std::make_shared<SampleNode>();
   auto process_node = std::make_shared<ProcessNode>();
+  auto upsample_node = std::make_shared<UpsampleNode>();
+  
   auto harris_node = std::make_shared<HarrisNode>();
-  auto fast_node = std::make_shared<FastNode>();
+  auto surf_node = std::make_shared<SurfNode>();
 
   executor.add_node(timer_publisher);
-  executor.add_node(sample_node);
   executor.add_node(process_node);
+  executor.add_node(upsample_node);
   executor.add_node(harris_node);
-  executor.add_node(fast_node);
+  executor.add_node(surf_node);
 
   executor.spin();
   rclcpp::shutdown();

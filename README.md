@@ -21,7 +21,7 @@ string image_path = "/media/eric/ubuntu/DATA/Event/ETH/shapes_translation/Text/s
 
 2. Modify the test results path (line 24 in harris_node.h):
 ```
-string result_path = "/home/eric/eloquent_ws/src/corner_detection/results/";
+string result_path = "/home/eric/crystal_ws/src/corner_detection/results/";
 ```
 
 3. Modify the test results path (in shi_tomasi_node.h)

@@ -17,9 +17,11 @@ ros2 run corner_detection corner_detection
 # Github
 
 ```
+git branch -a
+git checkout crystal
 git add .
 git commit -m "your comment"
-git push -u origin main
+git push origin crystal
 ```
 
 # CPU 

@@ -1,12 +1,12 @@
 # dag_case using image corner detection
 
-# 1. ROS eloquent
---- Test on ROS eloquent
+# 1. ROS crystal
+--- Test on ROS crystal
 
 # 2. Building
 ## Build this project
 ```
-cd your_workspace
+cd crystal_ws
 colcon build --packages-select corner_detection --symlink-install
 ```
 # 3. Run

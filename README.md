@@ -1,4 +1,4 @@
-# dag_case using image corner detection
+# Dag_case Using Image Corner Detection
 
 **Note: Remember to source your ROS eloquent packages before using this package**
 ```

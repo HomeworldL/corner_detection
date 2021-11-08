@@ -21,7 +21,7 @@
 
 using namespace cv;
 
-string result_path = "/home/eric/eloquent_ws/src/corner_detection/results/";
+string result_path = "~/eloquent_ws/src/corner_detection/results/";
 
 class HarrisNode: public rclcpp::Node
 {

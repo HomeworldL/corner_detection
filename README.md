@@ -1,17 +1,25 @@
-# dag_case using image corner detection
+# Dag_case Using Image Corner Detection
 
-Note: Source your ROS crystal packages before using this package
+**Note: Remember to source your ROS crystal packages before using this package**
 ```
 source /opt/ros/crystal/setup.bash
 ```
 
-# 1. Install ROS crystal & other packages
+# Step 1. Install ROS crystal & other dependent packages
 ```
 sudo apt install ros-crystal-cv-bridge
 sudo apt install ros-crystal-image-transport
 ```
 
-# 2. Building
+# Step 2. Building
+## Initialize your own workspace
+```
+cd
+mkdir -p ~/crystal_ws/src
+cd ~/crystal_ws/src
+git clone https://github.com/ruoxianglee/corner_detection.git -b crystal
+```
+
 ## Modify file path for your own usage
 1. Modify the source image path (line 130 & 131 in timer_publisher.h):
 ```
@@ -28,22 +36,23 @@ string result_path = "/home/eric/crystal_ws/src/corner_detection/results/";
 
 ## Build this project
 ```
+source /opt/ros/crystal/setup.bash
 cd crystal_ws
 colcon build --packages-select corner_detection --symlink-install
 ```
-# 3. Run
+# Step 3. Run
+**Note: Remeber to set your CPU environment before running.**
 ```
+source ~/crystal_ws/install/setup.bash
 ros2 run corner_detection corner_detection
 ```
 
 # Github
 
 ```
-git branch -a
-git checkout crystal
 git add .
 git commit -m "your comment"
-git push origin crystal
+git push -u origin main
 ```
 
 # CPU 

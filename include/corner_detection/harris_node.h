@@ -21,7 +21,7 @@
 
 using namespace cv;
 
-string result_path = "/home/eric/crystal_ws/src/corner_detection/results/";
+string result_path = "~/crystal_ws/src/corner_detection/results/";
 
 class HarrisNode: public rclcpp::Node
 {

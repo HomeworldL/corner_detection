@@ -30,7 +30,39 @@ public:
                                                                         10, 
                                                                         std::bind(&ShiTomasiNode::image_callback, this, std::placeholders::_1));
 
+        // Initialise outfile    
+        delay_chain3.open(result_path + "delay_chain3.txt", ios::out);
+        if (!delay_chain3.is_open()) 
+        {
+            cout<<"Error opening file delay_chain3.txt! "<<endl;
+        }
+
+        // set output accuracy
+        delay_chain3.setf(ios::fixed, ios::floatfield);
+        delay_chain3.precision(9);
+
+        delay_chain4.open(result_path + "delay_chain4.txt", ios::out);
+        if (!delay_chain4.is_open()) 
+        {
+            cout<<"Error opening file delay_chain4.txt! "<<endl;
+        }
+
+        // set output accuracy
+        delay_chain4.setf(ios::fixed, ios::floatfield);
+        delay_chain4.precision(9);
+
+        count1 = 0;
+        count2 = 0;
+        addition1 = 0.;
+        addition2 = 0.;
+
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Shi-Tomasi node has been initialised.");
+    }
+
+    ~ShiTomasiNode()
+    {
+        delay_chain3.close();
+        delay_chain4.close();
     }
 
     // Callback functions and relevant functions
@@ -55,6 +87,9 @@ public:
             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "cv_bridge exception shi-tomasi node: %s", e.what());
             return;
         }
+
+        rclcpp::Time msg_time = msg->header.stamp;
+        string frame_id = msg->header.frame_id;
 
         Mat src_gray = cv_ptr->image;
         int maxCorners = 23;
@@ -89,8 +124,73 @@ public:
         //-- Show detected (drawn) keypoints
         // imshow("Shi-Tomasi Keypoints", copy);
         // waitKey();
+
+        // if(count1 < 5)
+        // {
+        //     count1++;
+        //     return;
+        // }
+
+        output_delay(msg_time, frame_id);
+    }
+
+    void output_delay(rclcpp::Time msg_time, string frame_id)
+    {
+        rclcpp::Time now = this->now();
+        rclcpp::Duration delay = now - msg_time;
+                
+        if(frame_id == "image1")
+        {
+            if(count1 < 5)
+            {
+                count1++;
+                return;
+            }
+            
+            if(count1 < 505)
+            {
+                count1++;
+                addition1 += delay.seconds();
+                delay_chain3 << delay.seconds() << endl;
+            }
+            else if(count1 == 505)
+            {
+                delay_chain3 << endl << (double)(addition1 / (double)count1) << endl;
+                RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "We have got enough delay info from chain1.");
+                count1++;
+            }
+        }
+        else if(frame_id == "image2")
+        {
+            if(count2 < 5)
+            {
+                count2++;
+                return;
+            }
+
+            if(count2 < 505)
+            {
+                count2++;
+                addition2 += delay.seconds();
+                delay_chain4 << delay.seconds() << endl;
+            }
+            else if(count2 == 505)
+            {
+                delay_chain4 << endl << (double)(addition2 / (double)count2) << endl;
+                RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "We have got enough delay info from chain2.");
+                count2++;
+            }
+        }
     }
 
 private:
+    ofstream delay_chain3;
+    ofstream delay_chain4;
+
+    int count1, count2;
+    double addition1, addition2;
+
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub;
+
+    string result_path = "/home/eric/eloquent_ws/src/corner_detection/results/";
 };

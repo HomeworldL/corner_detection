@@ -34,10 +34,10 @@ public:
     //   100ms, std::bind(&TimerPublisher::timer2_callback, this));
 
     timer_1 = this->create_wall_timer(
-      100ms, std::bind(&TimerPublisher::timer1_callback, this));
+      10ms, std::bind(&TimerPublisher::timer1_callback, this));
 
     timer_2 = this->create_wall_timer(
-      100ms, std::bind(&TimerPublisher::timer2_callback, this));
+      10ms, std::bind(&TimerPublisher::timer2_callback, this));
 
     // load images with timestamps
     cout << " Loading images.... It may take some time." << endl;
@@ -66,8 +66,11 @@ private:
       cv_ptr->image = image;
       image.release();
 
-      publisher_1->publish(*cv_ptr->toImageMsg());
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 1.");
+      if(count_1 >= 10)
+      {
+        publisher_1->publish(*cv_ptr->toImageMsg());
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 1.");
+      }
     }
     else
     {
@@ -93,8 +96,11 @@ private:
       cv_ptr->image = image;
       image.release();
 
-      publisher_2->publish(*cv_ptr->toImageMsg());
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 2.");
+      if(count_2 >= 10)
+      {
+        publisher_2->publish(*cv_ptr->toImageMsg());
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Node Timer: publishing image from timer 2.");
+      }
     }
     else
     {

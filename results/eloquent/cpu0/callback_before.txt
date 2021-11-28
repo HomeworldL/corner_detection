@@ -1,0 +1,782 @@
+---------------------------------------- Period = 1000ms ----------------------------------------
+[INFO] [rclcpp]: Subscriptor 1 generates successfully.
+[INFO] [rclcpp]: Subscriptor 2 generates successfully.
+[INFO] [rclcpp]: Harris node has been initialised.
+[INFO] [rclcpp]: Shi-Tomasi node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+
+---------------------------------------- Period = 100ms ----------------------------------------
+[INFO] [rclcpp]: Subscriptor 1 generates successfully.
+[INFO] [rclcpp]: Subscriptor 2 generates successfully.
+[INFO] [rclcpp]: Harris node has been initialised.
+[INFO] [rclcpp]: Shi-Tomasi node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+
+
+---------------------------------------- Period = 30ms ----------------------------------------
+[INFO] [rclcpp]: Subscriptor 1 generates successfully.
+[INFO] [rclcpp]: Subscriptor 2 generates successfully.
+[INFO] [rclcpp]: Harris node has been initialised.
+[INFO] [rclcpp]: Shi-Tomasi node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+
+
+---------------------------------------- Period = 20ms ----------------------------------------
+[INFO] [rclcpp]: Subscriptor 1 generates successfully.
+[INFO] [rclcpp]: Subscriptor 2 generates successfully.
+[INFO] [rclcpp]: Harris node has been initialised.
+[INFO] [rclcpp]: Shi-Tomasi node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+
+
+---------------------------------------- Period = 10ms ----------------------------------------
+[INFO] [rclcpp]: Subscriptor 1 generates successfully.
+[INFO] [rclcpp]: Subscriptor 2 generates successfully.
+[INFO] [rclcpp]: Harris node has been initialised.
+[INFO] [rclcpp]: Shi-Tomasi node has been initialised.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 2.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 2.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 2.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.
+[INFO] [rclcpp]: Node Shi_Tomasi: callback for timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 1.
+[INFO] [rclcpp]: Node Timer: publishing image from timer 2.
+[INFO] [rclcpp]: Node Process: callback for timer 1.
+[INFO] [rclcpp]: Node Process: callback for timer 2.
+[INFO] [rclcpp]: Node Upsample: callback for timer 1.
+[INFO] [rclcpp]: Node Harris: callback for timer 1.

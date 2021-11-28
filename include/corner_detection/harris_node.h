@@ -21,8 +21,6 @@
 
 using namespace cv;
 
-string result_path = "~/eloquent_ws/src/corner_detection/results/";
-
 class HarrisNode: public rclcpp::Node
 {
 public:
@@ -54,6 +52,11 @@ public:
         // set output accuracy
         delay_outfile_2.setf(ios::fixed, ios::floatfield);
         delay_outfile_2.precision(9);
+
+        count1 = 0;
+        count2 = 0;
+        addition1 = 0.;
+        addition2 = 0.;
 
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Harris node has been initialised.");
     }
@@ -117,12 +120,6 @@ public:
         
         // imshow("Harris Keypoints", dst_norm_scaled);
         // waitKey();
-        
-        if(count1 < 5)
-        {
-            count1++;
-            return;
-        }
 
         output_delay(msg_time, frame_id);
     }
@@ -134,13 +131,19 @@ public:
                 
         if(frame_id == "image1")
         {
-            if(count1 < 500)
+            if(count1 < 5)
+            {
+                count1++;
+                return;
+            }
+
+            if(count1 < 505)
             {
                 count1++;
                 addition1 += delay.seconds();
                 delay_outfile_1 << delay.seconds() << endl;
             }
-            else if(count1 == 500)
+            else if(count1 == 505)
             {
                 delay_outfile_1 << endl << (double)(addition1 / (double)count1) << endl;
                 RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "We have got enough delay info from chain1.");
@@ -149,13 +152,19 @@ public:
         }
         else if(frame_id == "image2")
         {
-            if(count2 < 500)
+            if(count2 < 5)
+            {
+                count2++;
+                return;
+            }
+
+            if(count2 < 505)
             {
                 count2++;
                 addition2 += delay.seconds();
                 delay_outfile_2 << delay.seconds() << endl;
             }
-            else if(count2 == 500)
+            else if(count2 == 505)
             {
                 delay_outfile_2 << endl << (double)(addition2 / (double)count2) << endl;
                 RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "We have got enough delay info from chain2.");
@@ -172,4 +181,6 @@ private:
     double addition1, addition2;
 
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub;
+
+    string result_path = "/home/eric/eloquent_ws/src/corner_detection/results/";
 };
